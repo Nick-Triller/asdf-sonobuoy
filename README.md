@@ -15,10 +15,8 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
 - `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- `ASDF_SONOBUOY_OVERWRITE_ARCH`: override the CPU architecture (e.g. `x86_64`). Determined automatically with `uname -m` if unset.
 
 # Install
 
